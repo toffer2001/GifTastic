@@ -1,0 +1,64 @@
+label {
+	font-family: 'Amatic SC', 'Passion One', cursive, 'Cinzel', serif;
+	font-size: 36px;
+}
+
+body {
+	margin: 20px;
+	background-image: url("../images/background-3.jpg");
+}
+
+h1 {
+	font-family: 'Passion One', cursive;
+	color: #008CBA;
+	font-size: 60px;
+	display: inline-flex;
+}
+
+
+p {
+	font-family: 'Cinzel', serif;
+	font-size: 28px;
+}
+
+#dance {
+	border-radius: 50%;
+	height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.searchButton {
+	background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.searchButton:hover {
+    background-color: #4CAF50; /* Green */
+
+}
+
+#submit {
+	background-color: #4CAF50; /* Green */
+	color: white;
+    padding: 10px 10px;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+#submit:active {
+	box-shadow: 0 1px #666;
+}
+
